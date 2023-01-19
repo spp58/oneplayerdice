@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background: black;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: black;
+    border: 1px solid color #3f48cc;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+body {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100vh;
+    overflow: hidden;
+    width:100%;
+}
+
+nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navvy {
+    display:flex;
+    margin: -1px;
+    height:100vh;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-top: -400px;
+
+}
+
+.item{
+    background-color: #3a1fd1;
+    border-radius: 20px;
+    color:rgb(219, 12, 12);
+    font-size: 33px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.piccy{
+    border:#11cc2a;
+    border-width: 20px;
+    margin: 4px;
+}
+
+.score
+{
+    position: absolute;
+    top: 100px;
+    font-family:fantasy;
+    font-size: 60px;
+    z-index: 100;
+}
+h1{
+    font-size: 30px;
+    color: red;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin:0;
+    
+    
+}
+h2{
+    color: red;
+    font-size: 50px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center
+}
+
+h3{
+    color: red;
+    font-size: 50px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center  
+}
+
+#buttons{
+    background-color: #0ee63d; 
+    color:red;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin: 0;
+    transition-duration: 0.5s;
+    cursor:crosshair;
+    
+}
+#buttons{
+    background-color: red; 
+    color: black; 
+    border: 20px solid #4CAF50;  
+}
+#buttons:hover{
+    background-color: #0c08db;
+}
+
+.img1 {
+    width:80px;
+    height:80px;
+    scale:1 1;
+    animation: tate 4s infinite;
+
+}
+
+.img2 {
+    width: 80px;
+    height:80px;
+    scale:1 1;
+    animation: tate 4s infinite;
+
+}
+
+@keyframes tate {
+    50% {rotate: y 180deg;}
+}
+
